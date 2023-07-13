@@ -1,0 +1,54 @@
+/* css-contactinformation */
+
+/* Main Layout */
+.page {background-color:#E6E6FA; 
+	width:100%; 
+	margin:auto;
+padding:10px;}
+body {
+  background-image: url("pastel.jpg");
+}
+
+/* Header Section */
+.main-header {background-color:#E6E6FA;}
+.social-sites li {display:inline-block; 
+	position:relative; 
+	right:700px; top:-10px;}
+
+/* Main Section */
+main {background-color:#F5F5DC; width:70%; height:965px; float:left; font-family: "Lucida Console";}
+
+/* Sidebar Section */
+.sidebar {background-color:#FFF0F5; width:30%; float:left; font-family: "Lucida Handwriting";}
+
+/* Footer Section */
+.main-footer {background-color:#FAF0E6; clear:both;}
+
+ul {list-style-type: none; 
+    border: none;
+    color: white;
+    padding-right:200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;}
+
+li {float: left;}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
